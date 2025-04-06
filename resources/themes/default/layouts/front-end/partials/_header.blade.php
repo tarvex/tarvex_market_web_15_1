@@ -88,7 +88,7 @@
                 <a class="navbar-brand d-sm-none"
                    href="{{route('home')}}">
                     <img class="mobile-logo-img"
-                         src="{{ getStorageImages(path: $web_config['mob_logo'], type: 'logo') }}"
+                         src="{{ getStorageImages(path: $web_config['web_logo'], type: 'logo') }}"
                          alt="{{$web_config['company_name']}}"/>
                 </a>
 
