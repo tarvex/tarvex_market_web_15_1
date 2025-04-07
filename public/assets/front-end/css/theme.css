@@ -4,7 +4,10 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");*/
+
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 :root {
     --blue: #007bff;
@@ -34,8 +37,8 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1280px;
-    --font-family-sans-serif: "Open Sans", sans-serif;
-    --font-family-monospace: "Open Sans", sans-serif;
+    --font-family-sans-serif: "Montserrat", sans-serif;
+    --font-family-monospace: "Montserrat", sans-serif;
 }
 
 *,
@@ -45,7 +48,7 @@
 }
 
 html {
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
