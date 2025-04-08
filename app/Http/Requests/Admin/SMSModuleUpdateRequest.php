@@ -34,7 +34,7 @@ class SMSModuleUpdateRequest extends FormRequest
 
     public function after(): array
     {
-        if($this['gateway'] == '2factor' && !$this['otp_template']){
+        if ($this['gateway'] == '2factor' && !$this['otp_template']) {
             $twoFactor = Setting::where(['key_name' => '2factor', 'settings_type' => 'sms_config'])->first();
             if ($twoFactor && $twoFactor->live_values) {
                 $liveValues = is_array($twoFactor->live_values) ? $twoFactor->live_values : json_decode($twoFactor->live_values, true);
@@ -51,11 +51,16 @@ class SMSModuleUpdateRequest extends FormRequest
                 collect(['status'])->each(fn($item, $key) => $this[$item] = $this->has($item) ? (int)$this[$item] : 0);
 
                 $validation = [
-                    'gateway' => 'required|in:releans,twilio,nexmo,2factor,msg91,hubtel,paradox,signal_wire,019_sms,viatech,global_sms,akandit_sms,sms_to,alphanet_sms',
+                    'gateway' => 'required|in:releans,twilio,nexmo,2factor,msg91,hubtel,paradox,signal_wire,019_sms,viatech,global_sms,akandit_sms,sms_to,alphanet_sms,custom',
                     'mode' => 'required|in:live,test'
                 ];
                 $additionalData = [];
-                if ($this['gateway'] == 'releans') {
+                if ($this['gateway'] == 'custom') {
+                    $additionalData = [
+                        'status' => 'required|in:1,0',
+                        'url' => 'required|url'
+                    ];
+                } elseif ($this['gateway'] == 'releans') {
                     $additionalData = [
                         'status' => 'required|in:1,0',
                         'api_key' => 'required',

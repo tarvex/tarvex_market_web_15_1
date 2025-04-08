@@ -18,6 +18,11 @@ class SMSModule
 
     public static function send($receiver, $otp)
     {
+        $config = self::get_settings('custom');
+        if (isset($config) && $config['status'] == 1) {
+            return self::custom($receiver, $otp);
+        }
+
         $config = self::get_settings('twilio');
         if (isset($config) && $config['status'] == 1) {
             return self::twilio($receiver, $otp);
@@ -223,6 +228,39 @@ class SMSModule
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_CUSTOMREQUEST => 'POST',
                 CURLOPT_POSTFIELDS => array('api_key' => $api_key, 'msg' => $message, 'to' => $receiver),
+            ));
+
+            $response = curl_exec($curl);
+            $err = curl_error($curl);
+            curl_close($curl);
+
+            if (!$err) {
+                $response = 'success';
+            } else {
+                $response = 'error';
+            }
+        }
+        return $response;
+    }
+
+    public static function custom($receiver, $otp): string
+    {
+        $config = self::get_settings('custom');
+        $response = 'error';
+        if (isset($config) && $config['status'] == 1) {
+            $receiver = str_replace("+", "", $receiver);
+            $url = $config['url'];
+
+            $curl = curl_init();
+
+            curl_setopt_array($curl, array(
+                CURLOPT_URL => $url,
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_CUSTOMREQUEST => 'POST',
+                CURLOPT_POSTFIELDS => "{\"otp\":\"$otp\", \"phone\":\"+$receiver\"}",
+                CURLOPT_HTTPHEADER => array(
+                    "content-type: application/json"
+                ),
             ));
 
             $response = curl_exec($curl);
