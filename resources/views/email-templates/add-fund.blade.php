@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
 
-        @import url('https://fonts.googleapis.com/css?family=Helvetica:700,400');
+        @import url('https://fonts.googleapis.com/css?family=Raleway:700,400');
 
         body {
-            font-family: 'Helvetica', sans-serif;
+            font-family: 'Raleway', sans-serif;
             font-style: normal;
             background-color: #ececec;
             -ms-text-size-adjust: 100%;
