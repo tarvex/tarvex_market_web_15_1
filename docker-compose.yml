@@ -19,6 +19,17 @@ services:
     networks:
       - project-net
 
+  rate-monitor:
+    build:
+      context: ./docker/nginx
+      dockerfile: Dockerfile.monitor
+    volumes:
+      - './logs/nginx:/var/log/nginx'
+    environment:
+      - EMAIL_TO=your-email@example.com  # Change this to your email
+    networks:
+      - project-net
+
   php-fpm:
     build:
       context: ./docker/php
