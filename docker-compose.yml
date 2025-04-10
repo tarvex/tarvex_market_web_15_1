@@ -26,7 +26,7 @@ services:
     volumes:
       - './logs/nginx:/var/log/nginx'
     environment:
-      - EMAIL_TO=your-email@example.com  # Change this to your email
+      - EMAIL_TO=akram.tj1@gmail.com  # Change this to your email
     networks:
       - project-net
 
