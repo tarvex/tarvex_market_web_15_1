@@ -9456,4 +9456,6 @@ return [
 	"ওয়েবসাইট সমস্যা" => "ওয়েবসাইট সমস্যা",
 	"File_exceeds_10MB_size_limit" => "File exceeds 10MB size limit",
 	"_we_are_always_happy_to_help" => " we are always happy to help",
+	"no_sub_category_found" => "No sub category found",
+	"category_list_priority_setup_updated_successfully" => "Category list priority setup updated successfully",
 ];
