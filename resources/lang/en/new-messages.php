@@ -9459,4 +9459,6 @@ return [
 	"no_sub_category_found" => "No sub category found",
 	"category_list_priority_setup_updated_successfully" => "Category list priority setup updated successfully",
 	"terms_and_Condition" => "Terms and Condition",
+	"notification_sent_successfully" => "Notification sent successfully",
+	"push_notification_successfully" => "Push notification successfully",
 ];
