@@ -343,7 +343,7 @@ aside li .nav-link > span:not(:first-child) {
 }
 
 thead.text-capitalize th {
-    text-transform: capitalize;
+
     font-size: 14px;
 }
 
@@ -436,7 +436,7 @@ thead.text-capitalize th {
 }
 
 label {
-    text-transform: capitalize;
+
 }
 
 .label_1 {
@@ -516,7 +516,7 @@ label {
 }
 
 .qcont:first-letter {
-    text-transform: capitalize;
+
 }
 
 /* Rounded sliders */
@@ -824,7 +824,7 @@ label {
 .option-select-btn label span {
     color: var(--c1);
     border-radius: 5px;
-    text-transform: capitalize;
+
     padding: 6px 12px;
     cursor: pointer;
     display: block;
@@ -2496,7 +2496,7 @@ select {
     padding: 11px;
     padding-left: 15px;
     padding-right: 15px;
-    text-transform: capitalize;
+
     border: none;
 }
 
@@ -6430,7 +6430,7 @@ body *::-webkit-scrollbar-thumb {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-    text-transform: capitalize;
+
 }
 .customer-details-new-card-content-list {
     padding: 0;
@@ -6978,7 +6978,7 @@ table .store-name:hover {
 .add-outline-btn {
     font-size: 14px;
     font-weight: 600;
-    text-transform: capitalize;
+
     height: 44px;
     border-radius: 5px;
     border: 1px solid var(--primary-clr);
@@ -7548,7 +7548,7 @@ img[class*="ratio-"] {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 10px;
-    text-transform: capitalize;
+
 }
 
 .auth-wrapper-right .auth-header .badge {
