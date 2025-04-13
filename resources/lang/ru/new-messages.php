@@ -3014,7 +3014,7 @@ return [
 	"about_Us" => "О нас",
 	"about_company" => "О компании",
 	"about_our_company" => "О нашей компании",
-	"about_us" => "о нас",
+	"about_us" => "О нас",
 	"about_us_updated_successfully" => "Информация о нас успешно обновлена",
 	"ac_number" => "Номер счета",
 	"accept_All_Cookies" => "Принять все cookies",
