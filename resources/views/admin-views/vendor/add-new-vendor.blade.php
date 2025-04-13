@@ -29,7 +29,7 @@
                         </div>
                         <div class="form-group">
                             <label for="exampleLastName" class="title-color d-flex gap-1 align-items-center">{{translate('last_name')}}</label>
-                            <input type="text" class="form-control form-control-user" id="exampleLastName" name="l_name" value="{{old('l_name')}}" placeholder="{{translate('ex')}}: Doe" required>
+                            <input type="text" class="form-control form-control-user" id="exampleLastName" name="l_name" value="{{old('l_name')}}" placeholder="{{translate('ex')}}: Саидзода" required>
                         </div>
                         <div class="form-group">
                             <label class="title-color d-flex" for="exampleFormControlInput1">{{translate('phone')}}</label>

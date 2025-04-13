@@ -28,7 +28,7 @@
                                             </label>
                                             <input type="text" id="username" class="form-control" name="username"
                                                    value="{{ env('BUYER_USERNAME') }}"
-                                                   placeholder="{{ "Ex: John Doe" }}" required>
+                                                   placeholder="{{ "Ex: Фаридун Саидзода" }}" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">

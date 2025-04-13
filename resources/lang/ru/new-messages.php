@@ -676,7 +676,7 @@ return [
 	"Do_not_Miss_Todays_Deal" => "Не пропустите предложение дня",
 	"Do_not_delete" => "Не удалять",
 	"Do_you_want_to_logout" => "Вы хотите выйти?",
-	"Doe" => "Doe",
+	"Doe" => "Саидзода",
 	"Don t Delete" => "Не удалять",
 	"Don`t_have_the_template_ " => "Нет шаблона ",
 	"Download" => "Скачать",

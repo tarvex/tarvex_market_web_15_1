@@ -58,7 +58,7 @@
                                         {{ "Admin Name" }}
                                     </label>
                                     <input type="text" id="admin-name" class="form-control" name="admin_name"
-                                           required placeholder="Ex: John Doe">
+                                           required placeholder="Ex: Фаридун Саидзода">
                                 </div>
                             </div>
                             <div class="col-md-6">

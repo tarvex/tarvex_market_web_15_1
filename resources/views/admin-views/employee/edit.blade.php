@@ -31,7 +31,7 @@
                                     <label for="name"
                                         class="title-color">{{translate('full_Name')}}</label>
                                     <input type="text" name="name" class="form-control" id="name"
-                                        placeholder="{{translate('ex')}} : John Doe"
+                                        placeholder="{{translate('ex')}} : Фаридун Саидзода"
                                         value="{{$employee['name']}}" required>
                                 </div>
                                 <div class="form-group">

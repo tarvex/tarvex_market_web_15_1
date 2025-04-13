@@ -12,11 +12,11 @@
                                 <div class="col-sm-6">
                                     <div class="form-group mb-4">
                                         <label class="mb-2 text-capitalize" for="f_name">{{translate('first_name')}} <span class="text-danger">*</span></label>
-                                        <input class="form-control" type="text" name="f_name" placeholder="{{translate('ex').': John'}}" required>
+                                        <input class="form-control" type="text" name="f_name" placeholder="{{translate('ex').': Фаридун'}}" required>
                                     </div>
                                     <div class="form-group mb-4">
                                         <label class="mb-2 text-capitalize" for="l_name">{{translate('last_name')}} <span class="text-danger">*</span></label>
-                                        <input class="form-control" type="text" name="l_name" placeholder="{{translate('ex').': Doe'}}" required>
+                                        <input class="form-control" type="text" name="l_name" placeholder="{{translate('ex').': Саидзода'}}" required>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">

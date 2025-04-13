@@ -58,7 +58,7 @@
                                         </span>
                                     </label>
                                     <input type="text" id="username" class="form-control" name="username"
-                                           placeholder="Ex: john" required>
+                                           placeholder="Ex: faridun" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
