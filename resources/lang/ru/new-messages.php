@@ -9493,4 +9493,7 @@ return [
 	"vendor_registration_reason_status_changed_successfully" => "Vendor registration reason status changed successfully",
 	"vendor_registration_reason_update_successfully" => "Vendor registration reason update successfully",
 	"please_select_priority" => "Please select priority",
+	"if_enabled,_the_safe_payment_will_be_available_on_the_system." => "If enabled  the safe payment will be available on the system.",
+	"if_enabled,_the_delivery_info_will_be_available_on_the_system." => "If enabled  the delivery info will be available on the system.",
+	"there_is_no_FAQs" => "There is no FAQs",
 ];
