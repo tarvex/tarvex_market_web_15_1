@@ -1,5 +1,7 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+/*@import url(https://fonts.googleapis.com/css?family=Raleway);*/
+/*@import url(https://fonts.googleapis.com/css?family=Montserrat);*/
+/*@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);*/
 
 @font-face {
     font-family: 'MyFont';
@@ -16,7 +18,7 @@
     --title-color: #334257;
     --text-color: #5b6777;
     --border-color: rgba(180, 208, 224, 0.5);
-    --font: "Nunito Sans", sans-serif;
+    --font: "Montserrat", sans-serif;
 }
 
 body {
