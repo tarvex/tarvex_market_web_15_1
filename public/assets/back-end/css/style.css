@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../../../fonts/gteestiprodisplay_regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 :root {
     --c1: #1455ac;
     --c1-rgb: 20, 85, 172;
@@ -5,7 +13,7 @@
     --title-color: #334257;
     --text-color: #5b6777;
     --border-color: rgba(180, 208, 224, 0.5);
-    --font: "Inter", sans-serif;
+    --font: "MyFont", sans-serif;
 }
 
 body {
