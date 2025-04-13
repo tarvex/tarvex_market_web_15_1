@@ -9484,4 +9484,13 @@ return [
 	"terms_and_Condition" => "Terms and Condition",
 	"404 Logs" => "404 Logs",
 	"Saudi Arabia" => "Saudi Arabia",
+	"download_app_section" => "Download app section",
+	"download_app" => "Download app",
+	"FAQ_Update_successfully" => "FAQ Update successfully",
+	"the_ranking_field_is_required" => "The ranking field is required",
+	"the_answer_field_is_required" => "The answer field is required",
+	"the_question_field_is_required" => "The question field is required",
+	"vendor_registration_reason_status_changed_successfully" => "Vendor registration reason status changed successfully",
+	"vendor_registration_reason_update_successfully" => "Vendor registration reason update successfully",
+	"please_select_priority" => "Please select priority",
 ];
