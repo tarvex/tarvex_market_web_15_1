@@ -15,7 +15,7 @@
                         <div>
                             <div class="text-center">
                                 <div class="py-3">
-                                    <img src="{{theme_asset(path: '/public/assets/front-end/img/icons/otp-login-icon.svg') }}" alt="" width="50">
+                                    <img src="{{theme_asset(path: 'public/assets/front-end/img/icons/otp-login-icon.svg') }}" alt="" width="50">
                                 </div>
                                 <div class="my-3">
                                     <p class="text-muted">

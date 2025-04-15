@@ -26,7 +26,7 @@
                         @csrf
                         <div class="form-group">
                             <div class="text-center">
-                                <img src="{{theme_asset('/public/assets/front-end/img/icons/otp-login-icon.svg')}}" width="50" height="50" alt="" class="mb-4">
+                                <img src="{{theme_asset('public/assets/front-end/img/icons/otp-login-icon.svg')}}" width="50" height="50" alt="" class="mb-4">
                             </div>
                             <div class="resend_otp_custom text-center {{ $getTimeInSecond <= 0 ? 'd--none' : ''}}">
                                 <p class="text-primary mb-2 ">{{ translate('resend_code_within') }}</p>
