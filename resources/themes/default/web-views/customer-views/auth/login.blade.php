@@ -183,13 +183,13 @@
                                     @if($customerOTPLogin && $customerManualLogin)
                                         <a class="social-media-login-btn otp-login-btn" href="javascript:">
                                             <img alt=""
-                                                src="{{theme_asset(path: 'public/assets/front-end/img/icons/otp-login-icon.svg') }}">
+                                                src="{{theme_asset(path: '/public/assets/front-end/img/icons/otp-login-icon.svg') }}">
                                             <span class="text">{{ translate('OTP_Sign_in') }}</span>
                                         </a>
 
                                         <a class="social-media-login-btn manual-login-btn d-none" href="javascript:">
                                             <img alt=""
-                                                src="{{theme_asset(path: 'public/assets/front-end/img/icons/otp-login-icon.svg') }}">
+                                                src="{{theme_asset(path: '/public/assets/front-end/img/icons/otp-login-icon.svg') }}">
                                             <span class="text">{{ translate('Manual_Login') }}</span>
                                         </a>
                                     @endif
