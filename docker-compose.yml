@@ -1,7 +1,9 @@
 version: "3.7"
 
 networks:
-  project-net:
+  default:
+    external:
+      name: tarvex-network
 
 services:
   nginx:
