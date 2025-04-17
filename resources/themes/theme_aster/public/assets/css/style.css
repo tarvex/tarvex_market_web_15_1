@@ -118,8 +118,16 @@
 /* ************************
    01.1: Reset
    ********************* */
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('../../../../../../public/fonts/gteestiprodisplay_regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
-    font-family: sans-serif;
+    font-family: "MyFont", sans-serif;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
     scroll-behavior: smooth;
