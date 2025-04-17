@@ -9508,4 +9508,13 @@ return [
 	"Обычная доставка" => "Обычная доставка",
 	"no_Coupon_Found" => "No Coupon Found",
 	"for_these_wallet_settings,__customers_can_get_the_refund_to_the_wallet_and_also_can_use_their_wallet_money_to_pay_for_any_order." => "For these wallet settings   customers can get the refund to the wallet and also can use their wallet money to pay for any order.",
+	"if_Flat,_discount_amount_will_be_set_as_fixed_amount._If_Percentage,_discount_amount_will_be_set_as_percentage." => "If Flat  discount amount will be set as fixed amount. If Percentage  discount amount will be set as percentage.",
+	"no_sub_category_found" => "No sub category found",
+	"no_sub_sub_category_found" => "No sub sub category found",
+	"sub_category_not_found" => "Sub category not found",
+	"123412" => "123412",
+	"For_Ready_After_Sale_deliveries,_customers_pay_first_then_vendor_uploads_the_digital_products_that_become_available_to_customers_for_download" => "For Ready After Sale deliveries  customers pay first then vendor uploads the digital products that become available to customers for download",
+	"for_Ready_Product_deliveries,_customers_can_pay_&_instantly_download_pre-uploaded_digital_products." => "For Ready Product deliveries  customers can pay & instantly download pre-uploaded digital products.",
+	"535" => "535",
+	"4FOITO" => "4FOITO",
 ];
