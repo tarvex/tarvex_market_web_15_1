@@ -45,19 +45,11 @@
     
             </url>
     <url>
-        <loc>https://tarvex.tj/vendors?filter=top-vendors</loc>
-    
-            </url>
-    <url>
-        <loc>https://tarvex.tj/contacts</loc>
-    
-            </url>
-    <url>
         <loc>https://tarvex.tj/about-us</loc>
     
             </url>
     <url>
-        <loc>https://tarvex.tj/helpTopic</loc>
+        <loc>https://tarvex.tj/vendors?filter=top-vendors</loc>
     
             </url>
     <url>
@@ -65,7 +57,11 @@
     
             </url>
     <url>
-        <loc>https://tarvex.tj/refund-policy</loc>
+        <loc>https://tarvex.tj/helpTopic</loc>
+    
+            </url>
+    <url>
+        <loc>https://tarvex.tj/contacts</loc>
     
             </url>
     <url>
@@ -81,39 +77,36 @@
     
             </url>
     <url>
-        <loc>https://tarvex.tj/privacy-policy</loc>
-    
-            </url>
-    <url>
-        <loc>https://tarvex.tj/customer/auth/recover-password</loc>
-    
-            </url>
-    <url>
-        <loc>https://tarvex.tj/customer/auth/login/google</loc>
-    
-            </url>
-    <url>
         <loc>https://tarvex.tj/vendor/auth/forgot-password/index</loc>
     
             </url>
     <url>
+        <loc>https://tarvex.tj/privacy-policy</loc>
+    
+            </url>
+    <url>
         <loc>https://tarvex.tj/shopView/0</loc>
-        <lastmod>2025-04-13T22:41:20+05:00</lastmod>
+        <lastmod>2025-04-16T18:12:50+05:00</lastmod>
 
             </url>
     <url>
         <loc>https://tarvex.tj/shopView/1</loc>
-        <lastmod>2025-04-13T22:41:20+05:00</lastmod>
+        <lastmod>2025-04-16T18:12:50+05:00</lastmod>
+
+            </url>
+    <url>
+        <loc>https://tarvex.tj/refund-policy</loc>
+        <lastmod>2025-04-16T18:12:50+05:00</lastmod>
 
             </url>
     <url>
         <loc>https://tarvex.tj/products</loc>
-        <lastmod>2025-04-13T22:41:20+05:00</lastmod>
+        <lastmod>2025-04-16T18:12:50+05:00</lastmod>
 
             </url>
     <url>
         <loc>https://tarvex.tj/discounted-products</loc>
-        <lastmod>2025-04-13T22:41:20+05:00</lastmod>
+        <lastmod>2025-04-16T18:12:50+05:00</lastmod>
 
             </url>
 </urlset>
